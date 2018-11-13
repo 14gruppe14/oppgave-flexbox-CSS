@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Oversikt IT1</title>
+	<!-- UTF-8 gjør at vi kan bruke æ, ø og å  -->
+	<meta charset="UTF-8">
+    <link rel="stylesheet" href="Kode%208.2.css">
+	
+</head>
+<body>
+<div class="topptekst">
+    Idrett og friluft 
+</div>
+
+<div class="boks">
+
+    </div>
+
+<div class="boks">
+</div>
+
+<div class="boks">
+</div>
+
+</body>
+</html>
