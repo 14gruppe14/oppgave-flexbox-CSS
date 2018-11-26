@@ -4,8 +4,61 @@
 	<title>Oversikt IT1</title>
 	<!-- UTF-8 gjør at vi kan bruke æ, ø og å  -->
 	<meta charset="UTF-8">
-    <link rel="stylesheet" href="Kode%208.2.css">
-	
+    
+	<style>
+    .body {
+    background-color: aliceblue;
+    font-family: "Century Gothic", Arial, sans-serif;
+    font-size: 14px;
+    color: #323232; 
+    
+    }
+
+.boks {
+    width: 95%; /* boksens bredde i prosent */
+    height: 60px; /* boksens høyde i piksler */
+    margin: 5px auto; /* topp- og bunnmarg 5 px, sidemarg auto */
+    padding: 5px; /* avstand mellom bokskant og innhold */
+    background-color: #92a8d1; /* lyseblå */
+    order: 4; 
+}
+
+.innpakning {
+    width: 80%;
+    background-color: #000000; 
+    margin: auto; 
+    display: flex; 
+    flex-direction: row; 
+    flex-wrap: wrap; 
+    }
+
+.topptekst {
+   
+    height: 120px;
+    flex-basis: 100%;
+    margin: 5px;
+    padding: 5px; 
+    background-color: #006400;
+    order: 1; 
+}
+
+.meny {  
+    flex-basis: 100%;
+    margin: 5px;
+    padding: 5px; 
+    background-color: #92a8d1;  
+    order: 2
+}
+
+.innhold {
+    margin: 5px;
+    padding: 5px; 
+    background-color: #92a8d1; 
+    flex: 1;
+    order: 3; 
+   } 
+
+    </style>
 </head>
 <body>
 <div class="innpakning"> 
@@ -16,12 +69,20 @@
     </div>
 
     <div class="meny">
-        <h1>meny</h1> 
+        <h1>Malin</h1> 
+        <p></p>
     </div>
 
-    <div class="innhold">
-        <h1>innhold</h1> 
+     <div class="meny">
+        <h1>Mats</h1> 
+        <p></p>
     </div>
+    
+   
+    
+    
+    
+   
     
 
     
